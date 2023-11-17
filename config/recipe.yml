@@ -24,12 +24,6 @@ modules:
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      - bash-color-prompt
-      - pop-gtk-theme
-      - gnome-shell-extension-pop-shell
-      - gnome-shell-extension-appindicator
-      - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-dash-to-dock
       -	google-droid-sans-mono-fonts
       - google-go-mono-fonts
       - ibm-plex-mono-fonts
@@ -41,6 +35,12 @@ modules:
       - ubuntumono-nerd-fonts
       - git
       - zsh
+      - bash-color-prompt
+      - pop-gtk-theme
+      - gnome-shell-extension-pop-shell
+      - gnome-shell-extension-appindicator
+      - gnome-shell-extension-blur-my-shell
+      - gnome-shell-extension-dash-to-dock
       # - micro
       # - starship
     remove:

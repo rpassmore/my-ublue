@@ -28,19 +28,19 @@ modules:
       - pop-gtk-theme
       - gnome-shell-extension-pop-shell
       - gnome-shell-extension-appindicator
-			- gnome-shell-extension-blur-my-shell
-			- gnome-shell-extension-dash-to-dock
+      - gnome-shell-extension-blur-my-shell
+      - gnome-shell-extension-dash-to-dock
       - zsh
       - git
-			-	google-droid-sans-mono-fonts
-			- google-go-mono-fonts
+      -	google-droid-sans-mono-fonts
+      - google-go-mono-fonts
       - ibm-plex-mono-fonts
       - jetbrains-mono-fonts-all
       - mozilla-fira-mono-fonts
       - powerline-fonts
       - powertop
       - ubuntu-nerd-fonts
-			- ubuntumono-nerd-fonts
+      - ubuntumono-nerd-fonts
       # - micro
       # - starship
     remove:

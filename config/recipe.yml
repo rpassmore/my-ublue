@@ -30,7 +30,6 @@ modules:
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
-      - zsh
       -	google-droid-sans-mono-fonts
       - google-go-mono-fonts
       - ibm-plex-mono-fonts
@@ -41,6 +40,7 @@ modules:
       - ubuntu-nerd-fonts
       - ubuntumono-nerd-fonts
       - git
+      - zsh
       # - micro
       # - starship
     remove:

@@ -31,7 +31,6 @@ modules:
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-dash-to-dock
       - zsh
-      - git
       -	google-droid-sans-mono-fonts
       - google-go-mono-fonts
       - ibm-plex-mono-fonts
@@ -41,6 +40,7 @@ modules:
       - powertop
       - ubuntu-nerd-fonts
       - ubuntumono-nerd-fonts
+      - git
       # - micro
       # - starship
     remove:

@@ -6,7 +6,7 @@
 set -oue pipefail
 
 echo 'Installing required build deps'
-rpm-ostree install just rustc libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
+rpm-ostree install just rustc lld libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
 # optional dependencies
 echo 'Installing optional build deps'
 rpm-ostree install systemd-devel pulseaudio-libs-devel expat-devel fontconfig-devel freetype-devel lld cargo libgbm-devel clang-devel pipewire-devel

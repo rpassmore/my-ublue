@@ -16,6 +16,7 @@ git clone --recurse-submodules https://github.com/pop-os/cosmic-epoch
 cd cosmic-epoch
 
 echo 'Building'
+export CARGO_HOME=/tmp/cargo
 just sysext
 
 echo 'Copying config files'

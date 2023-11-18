@@ -4,7 +4,7 @@ name: my-ublue
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/bluefin-nvidia
 image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -31,16 +31,16 @@ modules:
       - mozilla-fira-mono-fonts
       - powerline-fonts
       - powertop
-      - ubuntu-nerd-fonts
-      - ubuntumono-nerd-fonts
+      #- ubuntu-nerd-fonts
+      #- ubuntumono-nerd-fonts
       - git
       - zsh
       - bash-color-prompt
-      - pop-gtk-theme
-      - gnome-shell-extension-pop-shell
-      - gnome-shell-extension-appindicator
-      - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-dash-to-dock
+      #- pop-gtk-theme
+      #- gnome-shell-extension-pop-shell
+      #- gnome-shell-extension-appindicator
+      #- gnome-shell-extension-blur-my-shell
+      #- gnome-shell-extension-dash-to-dock
       # - micro
       # - starship
     remove:

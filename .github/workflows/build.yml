@@ -40,6 +40,8 @@ jobs:
         # Don't add module configuration files, you will get errors.
         recipe:
           - recipe.yml
+          - recipe-nvidia.yml
+          - recipe-cosmic.yml
 # !!!
 
     steps:

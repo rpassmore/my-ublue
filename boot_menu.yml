@@ -1,5 +1,9 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: rpassmore/my-ublue
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: startingpoint
+  - label: rpassmore/my-ublue-nvidia
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: startingpoint-nvidia

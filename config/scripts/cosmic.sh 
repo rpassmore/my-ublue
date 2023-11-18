@@ -5,9 +5,9 @@
 # builds actually ran successfully without any errors!
 set -oue pipefail
 
-dnf install just rustc libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
+rpm-ostree install just rustc libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
 # optional dependencies
-dnf install systemd-devel pulseaudio-libs-devel expat-devel fontconfig-devel freetype-devel lld cargo libgbm-devel clang-devel pipewire-devel
+rpm-ostree install systemd-devel pulseaudio-libs-devel expat-devel fontconfig-devel freetype-devel lld cargo libgbm-devel clang-devel pipewire-devel
 
 git clone --recurse-submodules https://github.com/pop-os/cosmic-epoch
 cd cosmic-epoch

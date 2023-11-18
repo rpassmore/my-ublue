@@ -37,10 +37,14 @@ modules:
       - podmansh
       - powerline-fonts
       - powertop
-      #- ubuntu-nerd-fonts
-      #- ubuntumono-nerd-fonts
-      - redhat-rpm-config
       #- pop-gtk-theme
+      - pop-gnome-shell-theme
+      - pop-gtk2-theme
+      - pop-gtk3-theme
+      - pop-gtk4-theme
+      - pop-sound-theme
+      - pop-icon-theme
+      - gnome-shell-extension-pop-shell
     remove:
       - samba
       - samba-winbind

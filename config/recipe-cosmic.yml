@@ -12,5 +12,6 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 modules:
   - type: script
     scripts:
+      - example.sh
       - cosmic.sh
   - from-file: common.yml

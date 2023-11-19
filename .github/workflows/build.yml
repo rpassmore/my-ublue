@@ -41,7 +41,7 @@ jobs:
         recipe:
           - recipe.yml
           - recipe-nvidia.yml
-          - recipe-cosmic.yml
+          #- recipe-cosmic.yml
 # !!!
 
     steps:

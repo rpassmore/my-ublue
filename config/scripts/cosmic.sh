@@ -6,7 +6,7 @@
 set -oue pipefail
 
 echo 'Installing required build deps'
-rpm-ostree install just rustc lld libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
+rpm-ostree install just rustc binutils atk-devel rust-gdk-devel libglvnd-devel wayland-devel libseat-devel libxkbcommon-devel libinput-devel gtk4-devel udev dbus dbus-devel
 # optional dependencies
 echo 'Installing optional build deps'
 rpm-ostree install systemd-devel pulseaudio-libs-devel expat-devel fontconfig-devel freetype-devel lld cargo libgbm-devel clang-devel pipewire-devel
@@ -17,6 +17,8 @@ cd cosmic-epoch
 
 echo 'Building'
 export CARGO_HOME=/tmp/cargo
+# To resolve ld not found link to ld.lld
+ln -s /usr/bin/ld.lld /usr/bin/ld
 just sysext
 
 echo 'Copying config files'

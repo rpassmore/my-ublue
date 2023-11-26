@@ -27,7 +27,7 @@ modules:
       - podmansh
       - powerline-fonts
       - powertop
-      - system76-scheduler
+      #- system76-scheduler
       # pop shell
       - pop-gnome-shell-theme
       - pop-gtk2-theme
@@ -35,7 +35,7 @@ modules:
       - pop-gtk4-theme
       - pop-sound-theme
       - pop-icon-theme
-      - gnome-shell-extension-pop-shell
+      #- gnome-shell-extension-pop-shell
     remove:
       - samba
       - samba-winbind

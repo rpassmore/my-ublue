@@ -1,1 +1,1 @@
-import /usr/share/ublue-os/just/100-bling.just
+!include 100-bling.just
